@@ -17,7 +17,7 @@ from pygaze import eyetracker
 disp = libscreen.Display()
 
 # create eyetracker object
-tracker = eyetracker.EyeTracker(disp)
+tracker = eyetracker.EyeTracker(disp, trackertype="eyetribe")
 
 # create keyboard object
 keyboard = libinput.Keyboard(keylist=['space'], timeout=None)
