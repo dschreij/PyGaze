@@ -23,13 +23,6 @@
 			"tooltip"	: "Indicates whether calibration should be started"
 		},
 		{
-			"type"		: "checkbox",
-			"var"		: "calbeep",
-			"label"		: "Calibration beep",
-			"tooltip"	: "Play a beep when the calibration target jumps",
-			"name"		: "checkbox_calbeep"
-		},		
-		{
 			"type"		: "line_edit",
 			"label"		: "Log file",
 			"var"		: "_logfile",
@@ -61,9 +54,11 @@
 			"name"		: "text_eyelink_pylink_check"
 		},
 		{
-			"type"		: "text",
-			"label"		: "DUMMY",
-			"name"		: "text_pygaze_version"
+			"type"		: "checkbox",
+			"var"		: "eyelink_calbeep",
+			"label"		: "Calibration beep",
+			"tooltip"	: "Play a beep when the calibration target jumps",
+			"name"		: "checkbox_eyelink_calbeep"
 		},
 		{
 			"type"		: "checkbox",
